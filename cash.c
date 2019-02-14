@@ -18,7 +18,7 @@ int rmdr_reduce(int cash, int coin_value)
 int main(void)
 {
   float change = 0.0;
-  while (change < 0.01 || change > 99999.0) {
+  while (change < 0.0000001 || change > 99999.0) {
     change = get_float("Change owed:  ");
   };
 
