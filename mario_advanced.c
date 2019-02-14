@@ -5,8 +5,7 @@ int main(void)
 {
     int height = 0;
     while (height < 1 || height >= 9) {
-      height = get_int("Please enter the height of the Mario pyramid, between 1 and 8: \n>  ");
-      printf("\n");
+      height = get_int("Height: >  ");
     };
 
     for (int i = 0; i < height; i++) {
@@ -33,5 +32,4 @@ int main(void)
 
       printf("\n");
     };
-    printf("\n\n");
 };
