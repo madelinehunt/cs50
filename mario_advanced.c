@@ -5,7 +5,7 @@ int main(void)
 {
     int height = 0;
     while (height < 1 || height >= 9) {
-      height = get_int("Height: >  ");
+      height = get_int("Height: ");
     };
 
     for (int i = 0; i < height; i++) {
@@ -26,9 +26,9 @@ int main(void)
       for (int a = 0; a < hashes; a++) {
         printf("#");
       };
-      for (int j = 0; j < spaces; j++) {
-        printf(" ");
-      };
+      // for (int j = 0; j < spaces; j++) {
+      //   printf(" ");
+      // };
 
       printf("\n");
     };
